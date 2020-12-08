@@ -14,7 +14,7 @@ function Layout({ children, title }) {
 			</Head>
 			<Nav />
 			{children}
-			{/* <Footer /> */}
+			<Footer />
 			<style jsx global>
 				{`
 					* {
