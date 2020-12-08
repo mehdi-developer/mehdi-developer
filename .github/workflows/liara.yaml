@@ -16,5 +16,5 @@ jobs:
           LIARA_TOKEN: ${{ secrets.LIARA_API_TOKEN }}
         run: |
           npm i -g @liara/cli@2
-          liara deploy --app next --api-token="$LIARA_TOKEN" --region iran --detach
+          liara deploy --api-token="$LIARA_TOKEN" --region iran --detach
         
