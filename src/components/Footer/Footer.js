@@ -9,10 +9,10 @@ function Footer() {
 				</div>
 				<div className="d-flex justify-content-center">
 					<a href="mailto:mahdifarajideveloper@gmail.com" target="_blank">
-						<img style={{ width: '30px' }} className="github" src="/static/gmail.png" />
+						<img className="github" src="/static/gmail.png" />
 					</a>
-					<a rel="noopener noreferrer" target="_blank" href="https://github.com/mehdi-developer">
-						<img style={{ width: '30px' }} className="github" src="/static/github.png" />
+					<a rel="noopener noreferrer" target="_blank" href="https://wa.me/989214356647">
+						<img className="github" src="/static/github.png" />
 					</a>
 				</div>
 				<p className="year">فرانت اند دولوپر مهدی فرجی © {year}</p>
@@ -41,7 +41,7 @@ function Footer() {
 					}
 
 					.github {
-						width: 24px;
+						width: 30px;
 						margin: 0 .5em;
 					}
 				`}

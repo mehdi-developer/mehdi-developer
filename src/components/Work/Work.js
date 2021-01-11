@@ -7,6 +7,8 @@ import Weather from '../Weather/Weather';
 import Bafredo from '../Bafredo/Bafredo';
 import Warzone from '../Warzone/Warzone';
 import Dashboard from '../Dashboard/Dashboard';
+import IrKesht from '../IrKesht/IrKesht';
+import Viona from '../Viona/Viona';
 function Work() {
 	useEffect(() => {
 		AOS.init({ duration: 2000 });
@@ -18,6 +20,16 @@ function Work() {
 					جدیدترین کارها
 				</p>
 				<div className="row">
+					<div data-aos="fade" data-aos-once={true} className="col-12 pb-5">
+						<div className="d-flex justify-content-center">
+							<Viona />
+						</div>
+					</div>
+					<div data-aos="fade" data-aos-once={true} className="col-12 pb-5">
+						<div className="d-flex justify-content-center">
+							<IrKesht />
+						</div>
+					</div>
 					<div data-aos="fade" data-aos-once={true} className="col-12 pb-5">
 						<div className="d-flex justify-content-center">
 							<KKW />

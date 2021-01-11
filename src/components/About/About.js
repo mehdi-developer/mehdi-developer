@@ -13,7 +13,7 @@ function About() {
 					</div>
 					<div className="col-lg-6 col-md-6 col-sm-12 col-12 mt-5">
 						<h4 dir="rtl" style={{ fontWeight: 'bold' }} className="text-right">
-							" آنچه طراحی را از هنر جدا میکند کارایی است "
+							"آنچه طراحی را از هنر جدا میکند کاراییست"
 						</h4>
 						<p dir="rtl" style={{ fontSize: '1.3em' }} className="text-right mt-4">
 							من برنامه نویسی رو با آخرین ورژن فریم ورک های وب و تکنولوژی های دیتابیس و سرور عالی و سریع
